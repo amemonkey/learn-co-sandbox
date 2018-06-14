@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>language.playdate</title>
+   <link rel="stylesheet" type="type/css" href="/style.css">
+
+ </head>
+
+ <body>
+   <h1>Final Meetup</h1>
+     <form method="POST" action="/final_meetup">
+     <p>Language: <input type="text" name="language"></p>
+     <p>Address of Meetup: <input type="text" name="Address"></p>
+     <p>Zipcode: <input type= "text" name="ZIPcode"></p>
+     <p>Time: <input type= "text" name="Time"></p>
+     
+     
+     
+     "Your #{params[:language]} meeting will be on #{params[:date]}
+     at #{params[:time]} at #{params[:address]}, #{params[:zipcode]}. Is that correct?"
+     
+     
+     <input type="Yes">
+     <input type="No">
+   </form>
+ </body>
+ 
+</html>
